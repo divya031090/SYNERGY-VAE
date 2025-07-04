@@ -46,17 +46,6 @@ helper_functions.py
 requirements.txt
 README.md
 
----
-
-## 🚀 Quick Start
-
-###  Clone & install
-
-```bash
-git clone https://github.com/divya031090/SYNERGY-VAE.git
-cd SYNERGY-VAE
-pip install -r requirements.txt
-
 **# Saved trained models**
 Place all NHANES domain CSV files in data/raw/:
 
@@ -92,4 +81,17 @@ shap
 Install via:
 
 pip install -r requirements.txt
+
+---
+
+## 🚀 Quick Start
+
+###  Clone & install
+
+```bash
+git clone https://github.com/divya031090/SYNERGY-VAE.git
+cd SYNERGY-VAE
+pip install -r requirements.txt
+
+
 
