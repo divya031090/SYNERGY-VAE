@@ -1,4 +1,3 @@
-# SYNERGY-VAE
 
 # SYNERGY-VAE: Multimodal Variational Autoencoder for large population-level health dataset clustering and downstream prediction of depression risk
 
