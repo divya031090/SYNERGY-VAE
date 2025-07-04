@@ -57,7 +57,7 @@ git clone https://github.com/divya031090/SYNERGY-VAE.git
 cd SYNERGY-VAE
 pip install -r requirements.txt
 
-###  Prepare data
+**# Saved trained models**
 Place all NHANES domain CSV files in data/raw/:
 
 Demo_numeric_NHANES_2005_2018.csv
@@ -75,7 +75,7 @@ python scripts/5_cluster_analysis.py
 python scripts/6_feature_importance_analysis.py
 python scripts/7_cluster_specific_models.py
 
-🛠️ Requirements
+**# Requirements**
 
 Python 3.8+
 pandas
