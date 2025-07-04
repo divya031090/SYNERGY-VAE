@@ -40,15 +40,8 @@ results/
 models/
 # Saved trained models
 
-utils/
-helper_functions.py
-
-requirements.txt
-README.md
-
-**# Saved trained models**
 Place all NHANES domain CSV files in data/raw/:
-
+```text
 Demo_numeric_NHANES_2005_2018.csv
 Diet_numeric_NHANES_2005_2018.csv
 Exam_numeric_NHANES_2005_2018.csv
@@ -56,6 +49,7 @@ Lab_numeric_NHANES_2005_2018.csv
 Ques_numeric_NHANES_2005_2018.csv
 Label_NHANES_2005_2018.csv
 
+```text
 python scripts/1_data_preprocessing.py
 python scripts/2_pca_kmeans_baseline.py
 python scripts/3_vae_singledecoder.py
@@ -65,7 +59,7 @@ python scripts/6_feature_importance_analysis.py
 python scripts/7_cluster_specific_models.py
 
 **# Requirements**
-
+```text
 Python 3.8+
 pandas
 numpy
