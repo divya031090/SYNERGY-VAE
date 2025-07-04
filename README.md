@@ -9,7 +9,7 @@
 ---
 
 ## 🌟 Features
-
+```text
 - Multi-domain normalization and preprocessing
 - Shared latent space modeling using both single and multi-decoder VAEs
 - Baseline clustering with PCA + KMeans
@@ -20,7 +20,7 @@
 ---
 
 ## 🗂️ Repository Structure
-
+```text
 scripts/
 1_data_preprocessing.py
 2_pca_kmeans_baseline.py
@@ -30,15 +30,6 @@ scripts/
 6_feature_importance_analysis.py
 7_cluster_specific_models.py
 
-data/
-raw/ # Place raw CSV files here
-processed/ # Preprocessed and normalized CSVs
-
-results/
-# Cluster labels, feature importances, plots, model summaries
-
-models/
-# Saved trained models
 
 Place all NHANES domain CSV files in data/raw/:
 ```text
